@@ -71,7 +71,6 @@
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 10px;
-            height: 10px;
         }
         ::-webkit-scrollbar-track {
             background: #000;
@@ -92,8 +91,8 @@
 
     <!-- Navigation Bar (Esports Header) -->
     <nav class="bg-black border-b-2 border-[#ff4655] sticky top-0 z-50 shadow-[0_0_20px_rgba(255,70,85,0.4)]">
-        <div class="max-w-6xl mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
-            <div class="font-bold text-2xl md:text-3xl tracking-wide text-white riot-font flex items-center">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-bold text-3xl tracking-wide text-white riot-font flex items-center">
                 <span class="text-[#ff4655] mr-2">///</span> GAME BIZ REPORT
             </div>
             <div class="flex items-center space-x-4">
@@ -106,39 +105,39 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="max-w-5xl mx-auto px-4 py-8 md:py-16">
+    <main class="max-w-5xl mx-auto px-4 py-16">
         
         <!-- Hero Header -->
-        <header class="mb-12 md:mb-16 relative overflow-hidden md:overflow-visible">
-            <div class="absolute -top-10 -left-10 w-20 md:w-32 h-20 md:h-32 border-t-4 border-l-4 border-[#ff4655] opacity-50"></div>
-            <div class="absolute -bottom-10 -right-10 w-20 md:w-32 h-20 md:h-32 border-b-4 border-r-4 border-[#0ac8b9] opacity-50"></div>
+        <header class="mb-16 relative">
+            <div class="absolute -top-10 -left-10 w-32 h-32 border-t-4 border-l-4 border-[#ff4655] opacity-50"></div>
+            <div class="absolute -bottom-10 -right-10 w-32 h-32 border-b-4 border-r-4 border-[#0ac8b9] opacity-50"></div>
 
-            <div class="text-center relative z-10 px-2">
-                <span class="inline-block bg-[#ff4655] text-white font-bold px-4 py-1 mb-6 text-lg md:text-xl riot-font tracking-widest skew-tag">
+            <div class="text-center relative z-10">
+                <span class="inline-block bg-[#ff4655] text-white font-bold px-4 py-1 mb-6 text-xl riot-font tracking-widest skew-tag">
                     <span class="skew-tag-content">CASE STUDY: URNIQUE STUDIO</span>
                 </span>
                 
-                <h1 class="text-5xl md:text-8xl font-bold text-white mb-4 leading-[0.9] drop-shadow-xl uppercase break-words">
-                    URNIQUE <br class="hidden md:block">
+                <h1 class="text-6xl md:text-8xl font-bold text-white mb-4 leading-[0.9] drop-shadow-xl uppercase">
+                    URNIQUE <br>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#ff4655] to-[#ffaa00]">STUDIO</span>
                 </h1>
-                <p class="text-lg md:text-2xl text-gray-400 riot-font tracking-wide uppercase mt-2">SME Business Analysis & Growth Strategy</p>
+                <p class="text-2xl text-gray-400 riot-font tracking-wide uppercase mt-2">SME Business Analysis & Growth Strategy</p>
                 
-                <div class="mt-8 inline-flex items-center bg-[#111] border border-[#333] px-6 md:px-8 py-3 transform skew-x-[-10deg] max-w-full">
-                    <div class="transform skew-x-[10deg] flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 text-center md:text-left">
-                        <div>
+                <div class="mt-8 inline-flex items-center bg-[#111] border border-[#333] px-8 py-3 transform skew-x-[-10deg]">
+                    <div class="transform skew-x-[10deg] flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+                        <div class="text-left">
                             <p class="text-[#888] text-xs font-bold uppercase">Subject (SME)</p>
-                            <p class="text-white font-bold uppercase text-sm md:text-base">Urnique Studio</p>
+                            <p class="text-white font-bold uppercase">Urnique Studio</p>
                         </div>
-                        <div class="h-px w-full md:h-8 md:w-px bg-[#333] block"></div>
-                        <div>
+                        <div class="h-8 w-px bg-[#333] hidden md:block"></div>
+                        <div class="text-left">
                             <p class="text-[#888] text-xs font-bold uppercase">Industry</p>
-                            <p class="text-[#ff4655] font-bold text-sm md:text-base">Game Dev (Thailand)</p>
+                            <p class="text-[#ff4655] font-bold">Game Dev (Thailand)</p>
                         </div>
-                        <div class="h-px w-full md:h-8 md:w-px bg-[#333] block"></div>
-                        <div>
-                            <p class="text-[#888] text-xs font-bold uppercase">student</p>
-                            <p class="text-white font-bold text-sm md:text-base">Vitcha Gnimsuntear 66070349</p>
+                        <div class="h-8 w-px bg-[#333] hidden md:block"></div>
+                        <div class="text-left">
+                            <p class="text-[#888] text-xs font-bold uppercase">Author</p>
+                            <p class="text-white font-bold">Your Name</p>
                         </div>
                     </div>
                 </div>
@@ -146,14 +145,14 @@
         </header>
 
         <!-- Featured Image -->
-        <div class="w-full relative mb-12 md:mb-20 group">
+        <div class="w-full relative mb-20 group">
             <div class="absolute inset-0 bg-gradient-to-r from-[#ff4655] to-[#0ac8b9] blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
-            <div class="relative bg-black border-2 border-[#333] p-1 md:p-2">
-                <div class="w-full h-64 md:h-[500px] bg-gray-900 relative overflow-hidden">
+            <div class="relative bg-black border-2 border-[#333] p-2">
+                <div class="w-full h-80 md:h-[500px] bg-gray-900 relative overflow-hidden">
                     <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1150950/capsule_616x353.jpg" alt="Timelie Game Art" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
-                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-4 md:p-8">
-                        <h3 class="text-3xl md:text-4xl text-white riot-font mb-0">Figure 1: "Timelie"</h3>
-                        <p class="text-gray-400 font-mono text-xs md:text-sm">CRITICAL HIT: The product that saved the company.</p>
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-8">
+                        <h3 class="text-4xl text-white riot-font mb-0">Figure 1: "Timelie"</h3>
+                        <p class="text-gray-400 font-mono text-sm">CRITICAL HIT: The product that saved the company.</p>
                     </div>
                 </div>
             </div>
@@ -163,22 +162,22 @@
         <article class="article-text max-w-4xl mx-auto">
             
             <!-- STUDIO PROFILE CARD -->
-            <div class="mb-12 md:mb-16 relative group">
+            <div class="mb-16 relative group">
                 <div class="absolute -inset-1 bg-gradient-to-r from-[#ff4655] to-[#0ac8b9] opacity-20 blur group-hover:opacity-40 transition duration-500"></div>
                 
-                <div class="relative bg-[#111] border border-[#333] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start">
+                <div class="relative bg-[#111] border border-[#333] p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center md:items-start">
                     
                     <div class="flex-shrink-0 text-center md:text-left">
-                        <div class="w-20 h-20 md:w-24 md:h-24 bg-black border-2 border-[#ff4655] flex items-center justify-center mb-2 shadow-[0_0_15px_rgba(255,70,85,0.3)]">
-                            <span class="text-3xl md:text-4xl riot-font text-white">URN</span>
+                        <div class="w-24 h-24 bg-black border-2 border-[#ff4655] flex items-center justify-center mb-2 shadow-[0_0_15px_rgba(255,70,85,0.3)]">
+                            <span class="text-4xl riot-font text-white">URN</span>
                         </div>
                         <p class="text-[10px] text-[#666] font-mono uppercase tracking-widest">EST. 2019</p>
                     </div>
 
-                    <div class="flex-grow text-center md:text-left">
-                        <div class="flex flex-col md:flex-row items-center mb-2 justify-center md:justify-start">
-                            <h3 class="text-2xl md:text-3xl text-white riot-font md:mr-3">URNIQUE STUDIO</h3>
-                            <span class="bg-[#0ac8b9] text-black text-[10px] font-bold px-2 py-0.5 uppercase tracking-wide skew-tag mt-2 md:mt-0">
+                    <div class="flex-grow">
+                        <div class="flex items-center mb-2">
+                            <h3 class="text-3xl text-white riot-font mr-3">URNIQUE STUDIO</h3>
+                            <span class="bg-[#0ac8b9] text-black text-[10px] font-bold px-2 py-0.5 uppercase tracking-wide skew-tag">
                                 <span class="skew-tag-content">Thai Indie</span>
                             </span>
                         </div>
@@ -187,7 +186,7 @@
                             A Bangkok-based independent developer originally formed by students from <strong>Chulalongkorn University</strong>. They gained global fame after winning the <em>Microsoft Imagine Cup</em> (World Champion). They are known for "Stealth Puzzle" games that respect the player's intelligence.
                         </p>
 
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 border-t border-[#222] pt-4 text-left">
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 border-t border-[#222] pt-4">
                             <div>
                                 <p class="text-[10px] text-[#666] uppercase font-bold">Location</p>
                                 <p class="text-white text-xs font-mono">Bangkok, TH</p>
@@ -209,28 +208,28 @@
                 </div>
             </div>
 
-            <p class="mb-8 md:mb-12 text-lg md:text-xl font-medium text-gray-300 border-l-4 border-[#ff4655] pl-6 bg-gradient-to-r from-[#ff4655]/10 to-transparent py-4">
+            <p class="mb-12 text-xl font-medium text-gray-300 border-l-4 border-[#ff4655] pl-6 bg-gradient-to-r from-[#ff4655]/10 to-transparent py-4">
                 Let's be real: making video games is tough. Most indie developers go broke because they run out of money before their game is even finished. It's even harder in Thailand where there isn't much funding. But <strong>Urnique Studio</strong> (the creators of <em>Timelie</em>) figured out a way to beat the system.
             </p>
 
             <!-- SECTION 1: BUSINESS ANALYSIS -->
-            <div class="relative mb-8 mt-16 md:mt-20">
+            <div class="relative mb-8 mt-20">
                 <div class="absolute -left-4 top-0 bottom-0 w-1 bg-[#ff4655]"></div>
-                <h2 class="text-4xl md:text-5xl font-bold text-white m-0 uppercase italic pl-4">1. The Money Problem</h2>
-                <div class="text-[#ff4655] font-mono text-sm pl-4 mt-1">/// ECONOMIC ANALYSIS DETECTED</div>
+                <h2 class="text-5xl font-bold text-white m-0 uppercase italic pl-4">1. Economic Performance</h2>
+                <div class="text-[#ff4655] font-mono text-sm pl-4 mt-1">/// FINANCIAL ANALYSIS DETECTED</div>
             </div>
 
-            <p class="mb-8 text-gray-300">
+            <p class="mb-8">
                 Here is the harsh reality: making a good game like <em>Timelie</em> takes <strong>2–3 years</strong>. During that time, the studio earns <strong>$0</strong>. If you are a student team just starting out, how do you pay for food and rent?
             </p>
             
             <!-- Strategy Box -->
-            <div class="bg-[#1a1a1a] border border-[#333] p-6 md:p-8 mb-12 relative overflow-hidden">
+            <div class="bg-[#1a1a1a] border border-[#333] p-8 mb-12 relative overflow-hidden">
                 <div class="absolute top-0 right-0 p-4 opacity-10">
-                    <i class="fas fa-chess-knight text-8xl md:text-9xl text-white"></i>
+                    <i class="fas fa-chess-knight text-9xl text-white"></i>
                 </div>
-                <h3 class="text-2xl md:text-3xl text-[#0ac8b9] mb-6 flex items-center riot-font">
-                    <span class="bg-[#0ac8b9] text-black px-2 mr-3 text-lg md:text-xl font-bold">STRATEGY</span> 
+                <h3 class="text-3xl text-[#0ac8b9] mb-6 flex items-center riot-font">
+                    <span class="bg-[#0ac8b9] text-black px-2 mr-3 text-xl font-bold">STRATEGY</span> 
                     The Pivot
                 </h3>
                 <p class="text-gray-300 mb-6 relative z-10">
@@ -249,16 +248,16 @@
             </div>
 
             <!-- NEW: INTERACTIVE CHART.JS SECTION (Riot Style) with UPDATED DATA -->
-            <div id="growth-chart" class="my-12 md:my-16 bg-[#1a1a1a] border border-[#333] rounded-lg p-4 md:p-6 relative overflow-hidden shadow-[0_0_30px_rgba(10,200,185,0.1)]">
+            <div id="growth-chart" class="my-16 bg-[#1a1a1a] border border-[#333] rounded-lg p-6 relative overflow-hidden shadow-[0_0_30px_rgba(10,200,185,0.1)]">
                 <!-- Decorative scan line -->
                 <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#0ac8b9] to-transparent opacity-50"></div>
                 
-                <div class="border-b border-[#333] pb-4 mb-4 flex flex-col md:flex-row justify-between items-start md:items-center relative z-10">
-                    <div class="mb-2 md:mb-0">
-                        <h3 class="text-white riot-font text-2xl md:text-3xl"><i class="fas fa-chart-line mr-2 text-[#0ac8b9]"></i> FINANCIAL DATA</h3>
+                <div class="border-b border-[#333] pb-4 mb-4 flex justify-between items-center relative z-10">
+                    <div>
+                        <h3 class="text-white riot-font text-3xl"><i class="fas fa-chart-line mr-2 text-[#0ac8b9]"></i> FINANCIAL DATA</h3>
                         <p class="text-xs text-[#666] font-mono tracking-widest">SOURCE: VG INSIGHTS & SENSOR TOWER (2025)</p>
                     </div>
-                    <div class="h-2 w-2 bg-[#0ac8b9] animate-pulse rounded-full hidden md:block"></div>
+                    <div class="h-2 w-2 bg-[#0ac8b9] animate-pulse rounded-full"></div>
                 </div>
                 
                 <div class="relative h-64 w-full z-10">
@@ -266,13 +265,13 @@
                 </div>
 
                 <!-- ADDED: RAW DATA TABLE TO MATCH GRAPH -->
-                <div class="mt-6 relative z-10 overflow-x-auto">
+                <div class="mt-6 relative z-10">
                     <h4 class="text-[#0ac8b9] font-bold text-xs uppercase tracking-widest mb-2 border-l-2 border-[#0ac8b9] pl-2">Confirmed Data Points</h4>
-                    <table class="w-full text-xs text-left font-mono min-w-[300px]">
+                    <table class="w-full text-xs text-left font-mono">
                         <thead class="text-[#666] border-b border-[#333]">
                             <tr>
-                                <th class="py-2 pr-4">YEAR</th>
-                                <th class="py-2 pr-4">EVENT</th>
+                                <th class="py-2">YEAR</th>
+                                <th class="py-2">EVENT</th>
                                 <th class="py-2 text-right">CUMULATIVE REV.</th>
                             </tr>
                         </thead>
@@ -300,13 +299,13 @@
                     </p>
                 </div>
                 
-                <div class="mt-6 border-t border-[#333] pt-4 grid grid-cols-1 md:grid-cols-3 gap-4 text-center relative z-10">
-                    <div class="border-b md:border-b-0 md:border-r border-[#333] pb-4 md:pb-0">
+                <div class="mt-6 border-t border-[#333] pt-4 grid grid-cols-3 gap-4 text-center relative z-10">
+                    <div class="border-r border-[#333]">
                         <p class="text-[10px] text-[#666] uppercase tracking-widest">Initial Cost</p>
                         <p class="font-bold text-white text-xl">~0 THB</p>
                         <span class="text-[10px] text-[#444] font-mono">(Student Project)</span>
                     </div>
-                    <div class="border-b md:border-b-0 md:border-r border-[#333] pb-4 md:pb-0">
+                    <div class="border-r border-[#333]">
                         <p class="text-[10px] text-[#666] uppercase tracking-widest">Unit Sales</p>
                         <p class="font-bold text-[#0ac8b9] text-xl">74,190+</p>
                         <span class="text-[10px] text-[#444] font-mono">(Global Steam)</span>
@@ -326,13 +325,13 @@
 
             <!-- SWOT ANALYSIS -->
             <div class="mb-20">
-                <h3 class="text-3xl md:text-4xl font-bold text-white mb-8 text-center uppercase riot-font">
+                <h3 class="text-4xl font-bold text-white mb-8 text-center uppercase riot-font">
                     <span class="text-[#ff4655]">SWOT</span> ANALYSIS
                 </h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <!-- Strengths -->
                     <div class="bg-[#0f1910] border border-green-900/50 p-6">
-                        <h4 class="text-2xl md:text-3xl text-green-500 riot-font mb-4">STRENGTHS <span class="text-sm bg-green-900 text-green-300 px-2 ml-2 rounded align-middle">XP UP</span></h4>
+                        <h4 class="text-3xl text-green-500 riot-font mb-4">STRENGTHS <span class="text-sm bg-green-900 text-green-300 px-2 ml-2 rounded">INTERNAL STRENGTH</span></h4>
                         <ul class="text-gray-300 space-y-2 text-sm">
                             <li class="border-l-2 border-green-500 pl-3"><strong>Low Cost:</strong> Started as a student project.</li>
                             <li class="border-l-2 border-green-500 pl-3"><strong>Unique Gameplay:</strong> Standout mechanics.</li>
@@ -341,7 +340,7 @@
                     </div>
                     <!-- Weaknesses -->
                     <div class="bg-[#1a1500] border border-yellow-900/50 p-6">
-                        <h4 class="text-2xl md:text-3xl text-yellow-500 riot-font mb-4">WEAKNESSES <span class="text-sm bg-yellow-900 text-yellow-300 px-2 ml-2 rounded align-middle">DEBUFF</span></h4>
+                        <h4 class="text-3xl text-yellow-500 riot-font mb-4">WEAKNESSES <span class="text-sm bg-yellow-900 text-yellow-300 px-2 ml-2 rounded">INTERNAL WEAKNESS</span></h4>
                         <ul class="text-gray-300 space-y-2 text-sm">
                             <li class="border-l-2 border-yellow-500 pl-3"><strong>Small Team:</strong> Development risks.</li>
                             <li class="border-l-2 border-yellow-500 pl-3"><strong>Niche Genre:</strong> Less mass appeal.</li>
@@ -349,7 +348,7 @@
                     </div>
                     <!-- Opportunities -->
                     <div class="bg-[#0a151a] border border-blue-900/50 p-6">
-                        <h4 class="text-2xl md:text-3xl text-blue-500 riot-font mb-4">OPPORTUNITIES <span class="text-sm bg-blue-900 text-blue-300 px-2 ml-2 rounded align-middle">LOOT</span></h4>
+                        <h4 class="text-3xl text-blue-500 riot-font mb-4">OPPORTUNITIES <span class="text-sm bg-blue-900 text-blue-300 px-2 ml-2 rounded">EXTERNAL OPPORTUNITY</span></h4>
                         <ul class="text-gray-300 space-y-2 text-sm">
                             <li class="border-l-2 border-blue-500 pl-3"><strong>Porting:</strong> Switch/Mobile markets.</li>
                             <li class="border-l-2 border-blue-500 pl-3"><strong>Merch:</strong> Selling plushies.</li>
@@ -357,7 +356,7 @@
                     </div>
                     <!-- Threats -->
                     <div class="bg-[#1a0a0a] border border-red-900/50 p-6">
-                        <h4 class="text-2xl md:text-3xl text-red-500 riot-font mb-4">THREATS <span class="text-sm bg-red-900 text-red-300 px-2 ml-2 rounded align-middle">BOSS</span></h4>
+                        <h4 class="text-3xl text-red-500 riot-font mb-4">THREATS <span class="text-sm bg-red-900 text-red-300 px-2 ml-2 rounded">EXTERNAL THREAT</span></h4>
                         <ul class="text-gray-300 space-y-2 text-sm">
                             <li class="border-l-2 border-red-500 pl-3"><strong>Copycats:</strong> Mechanics theft.</li>
                             <li class="border-l-2 border-red-500 pl-3"><strong>Game Pass:</strong> Devaluing indie sales.</li>
@@ -367,9 +366,9 @@
             </div>
 
             <!-- SECTION 2: DESIGN THINKING -->
-            <div class="relative mb-8 mt-16 md:mt-20">
+            <div class="relative mb-8 mt-20">
                 <div class="absolute -left-4 top-0 bottom-0 w-1 bg-[#8b5cf6]"></div>
-                <h2 class="text-4xl md:text-5xl font-bold text-white m-0 uppercase italic pl-4">2. Fixing the Gameplay</h2>
+                <h2 class="text-5xl font-bold text-white m-0 uppercase italic pl-4">2. The Solution Framework</h2>
             </div>
 
             <p class="mb-8 text-gray-300">
@@ -408,58 +407,119 @@
             </div>
 
             <!-- Quest Log UI -->
-            <div class="bg-[#111] border-2 border-[#333] p-4 md:p-8 rounded-sm relative">
+            <div class="bg-[#111] border-2 border-[#333] p-8 rounded-sm relative">
                 <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#8b5cf6] text-white px-6 py-1 font-bold tracking-widest uppercase text-sm skew-tag">
                     <span class="skew-tag-content">Active Quest: Design Thinking</span>
                 </div>
                 <div class="space-y-4 mt-4">
                     <div class="flex items-center group">
-                        <div class="flex-shrink-0 h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#8b5cf6] font-bold text-xl mr-4 group-hover:bg-[#8b5cf6] group-hover:text-white transition-colors">1</div>
+                        <div class="h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#8b5cf6] font-bold text-xl mr-4 group-hover:bg-[#8b5cf6] group-hover:text-white transition-colors">1</div>
                         <div class="bg-[#1a1a1a] p-4 flex-1 border-l-4 border-[#8b5cf6]">
                             <h4 class="text-[#8b5cf6] font-bold uppercase text-xs">Empathize</h4>
-                            <p class="text-white text-sm md:text-base">"Game Overs are annoying" - Understood player stress.</p>
+                            <p class="text-white">"Game Overs are annoying" - Understood player stress.</p>
                         </div>
                     </div>
                     <div class="flex items-center group">
-                        <div class="flex-shrink-0 h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#a855f7] font-bold text-xl mr-4 group-hover:bg-[#a855f7] group-hover:text-white transition-colors">2</div>
+                        <div class="h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#a855f7] font-bold text-xl mr-4 group-hover:bg-[#a855f7] group-hover:text-white transition-colors">2</div>
                         <div class="bg-[#1a1a1a] p-4 flex-1 border-l-4 border-[#a855f7]">
                             <h4 class="text-[#a855f7] font-bold uppercase text-xs">Define</h4>
-                            <p class="text-white text-sm md:text-base">Problem: "How to sneak without the punishment?"</p>
+                            <p class="text-white">Problem: "How to sneak without the punishment?"</p>
                         </div>
                     </div>
                     <div class="flex items-center group">
-                        <div class="flex-shrink-0 h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#d8b4fe] font-bold text-xl mr-4 group-hover:bg-[#d8b4fe] group-hover:text-black transition-colors">3</div>
+                        <div class="h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#d8b4fe] font-bold text-xl mr-4 group-hover:bg-[#d8b4fe] group-hover:text-black transition-colors">3</div>
                         <div class="bg-[#1a1a1a] p-4 flex-1 border-l-4 border-[#d8b4fe]">
                             <h4 class="text-[#d8b4fe] font-bold uppercase text-xs">Ideate</h4>
-                            <p class="text-white text-sm md:text-base">Solution: "Let's make it a Video Player (Rewind)."</p>
+                            <p class="text-white">Solution: "Let's make it a Video Player (Rewind)."</p>
                         </div>
                     </div>
                     <div class="flex items-center group">
-                        <div class="flex-shrink-0 h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#3b82f6] font-bold text-xl mr-4 group-hover:bg-[#3b82f6] group-hover:text-white transition-colors">4</div>
+                        <div class="h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#3b82f6] font-bold text-xl mr-4 group-hover:bg-[#3b82f6] group-hover:text-white transition-colors">4</div>
                         <div class="bg-[#1a1a1a] p-4 flex-1 border-l-4 border-[#3b82f6]">
                             <h4 class="text-[#3b82f6] font-bold uppercase text-xs">Prototype</h4>
-                            <p class="text-white text-sm md:text-base">Built an ugly version to test mechanics.</p>
+                            <p class="text-white">Built an ugly version to test mechanics.</p>
                         </div>
                     </div>
                     <div class="flex items-center group">
-                        <div class="flex-shrink-0 h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#22c55e] font-bold text-xl mr-4 group-hover:bg-[#22c55e] group-hover:text-black transition-colors">5</div>
+                        <div class="h-12 w-12 bg-[#222] border border-[#444] flex items-center justify-center text-[#22c55e] font-bold text-xl mr-4 group-hover:bg-[#22c55e] group-hover:text-black transition-colors">5</div>
                         <div class="bg-[#1a1a1a] p-4 flex-1 border-l-4 border-[#22c55e]">
                             <h4 class="text-[#22c55e] font-bold uppercase text-xs">Test</h4>
-                            <p class="text-white text-sm md:text-base">Players felt smart, not punished. Validated!</p>
+                            <p class="text-white">Players felt smart, not punished. Validated!</p>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- NEW: VOICE OF THE GAMER (Steam Reviews) -->
+            <div class="relative mb-8 mt-20">
+                <div class="absolute -left-4 top-0 bottom-0 w-1 bg-[#0ac8b9]"></div>
+                <h2 class="text-5xl font-bold text-white m-0 uppercase italic pl-4">3. User Sentiment</h2>
+                <div class="text-[#0ac8b9] font-mono text-sm pl-4 mt-1">/// USER SENTIMENT ANALYSIS</div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="bg-[#16202d] border border-[#2a475e] p-4 relative group hover:border-[#66c0f4] transition-colors">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-[#2a475e] p-1 mr-2">
+                            <i class="fas fa-thumbs-up text-[#66c0f4] text-2xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase">Steam User (nd_)</p>
+                            <p class="text-[10px] text-[#888]">Verified Owner</p>
+                        </div>
+                        <div class="ml-auto text-[#2a475e] text-4xl opacity-20 group-hover:opacity-100 group-hover:text-[#66c0f4]">❝</div>
+                    </div>
+                    <p class="text-gray-400 text-sm italic">
+                        "Absolute masterpiece - game that unites the story, the puzzle... extremely polished and flawless, beautiful, cute and rewarding."
+                    </p>
+                </div>
+
+                <div class="bg-[#16202d] border border-[#2a475e] p-4 relative group hover:border-[#66c0f4] transition-colors">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-[#2a475e] p-1 mr-2">
+                            <i class="fas fa-thumbs-up text-[#66c0f4] text-2xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase">The Gamer's Lounge</p>
+                            <p class="text-[10px] text-[#888]">Critic Review</p>
+                        </div>
+                        <div class="ml-auto text-[#2a475e] text-4xl opacity-20 group-hover:opacity-100 group-hover:text-[#66c0f4]">❝</div>
+                    </div>
+                    <p class="text-gray-400 text-sm italic">
+                        "Timelie is like a YouTube Video of Endless Possibilities. With a scrub bar... you can rewind and change your path to achieve victory."
+                    </p>
+                </div>
+
+                <div class="bg-[#16202d] border border-[#2a475e] p-4 relative group hover:border-[#66c0f4] transition-colors">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-[#2a475e] p-1 mr-2">
+                            <i class="fas fa-thumbs-up text-[#66c0f4] text-2xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase">Steam User (svenevil)</p>
+                            <p class="text-[10px] text-[#888]">507 Games Owned</p>
+                        </div>
+                        <div class="ml-auto text-[#2a475e] text-4xl opacity-20 group-hover:opacity-100 group-hover:text-[#66c0f4]">❝</div>
+                    </div>
+                    <p class="text-gray-400 text-sm italic">
+                        "Really good puzzle game from Thailand. The beautiful visuals and relaxing music also help to make you focused on the game."
+                    </p>
+                </div>
+            </div>
+
+            <div class="mb-16 text-[10px] text-[#444] text-center font-mono">
+                *Real Reviews sourced via Steam Community & Metacritic.
+            </div>
+
             <!-- NEW: 4Ps MARKETING MIX TABLE -->
-            <div class="relative mb-8 mt-16 md:mt-20">
+            <div class="relative mb-8 mt-20">
                 <div class="absolute -left-4 top-0 bottom-0 w-1 bg-[#ffaa00]"></div>
-                <h2 class="text-4xl md:text-5xl font-bold text-white m-0 uppercase italic pl-4">3. The Marketing Mix (4Ps)</h2>
+                <h2 class="text-5xl font-bold text-white m-0 uppercase italic pl-4">4. Strategic Execution (4Ps)</h2>
                 <div class="text-[#ffaa00] font-mono text-sm pl-4 mt-1">/// ENTREPRENEURIAL KNOWLEDGE</div>
             </div>
             
-            <div class="overflow-x-auto border border-[#333] rounded-lg shadow-sm mb-12 font-sans bg-[#111]">
-                <table class="min-w-[600px] w-full text-sm">
+            <div class="overflow-hidden border border-[#333] rounded-lg shadow-sm mb-12 font-sans bg-[#111]">
+                <table class="min-w-full text-sm">
                     <thead class="bg-[#1a1a1a] text-[#888] font-bold uppercase text-xs border-b border-[#333]">
                         <tr>
                             <th class="py-4 px-6 text-left tracking-wider">Category</th>
@@ -493,9 +553,9 @@
             </div>
 
             <!-- Trophy Case -->
-            <div class="bg-gradient-to-b from-[#1a1500] to-black border border-[#c8aa6e] p-6 md:p-8 mt-8 rounded-lg text-center relative overflow-hidden">
+            <div class="bg-gradient-to-b from-[#1a1500] to-black border border-[#c8aa6e] p-8 mt-8 rounded-lg text-center relative overflow-hidden">
                 <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diamond-upholstery.png')] opacity-20"></div>
-                <h3 class="text-3xl md:text-4xl text-[#c8aa6e] riot-font mb-8 relative z-10">THE TROPHY CABINET</h3>
+                <h3 class="text-4xl text-[#c8aa6e] riot-font mb-8 relative z-10">THE TROPHY CABINET</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10">
                     <div class="p-4 border border-[#c8aa6e]/30 bg-black/50 hover:border-[#c8aa6e] transition-colors">
                         <div class="text-5xl mb-4 grayscale hover:grayscale-0 transition-all">🏆</div>
@@ -516,8 +576,8 @@
             </div>
 
             <!-- CUSTOMER PERSONA -->
-            <div class="mt-12 bg-[#000] border-2 border-dashed border-[#ff4655] p-6 flex flex-col md:flex-row items-start md:space-x-4">
-                <div class="text-4xl text-[#ff4655] animate-pulse mb-4 md:mb-0">🎯</div>
+            <div class="mt-12 bg-[#000] border-2 border-dashed border-[#ff4655] p-6 flex items-start space-x-4">
+                <div class="text-4xl text-[#ff4655] animate-pulse">🎯</div>
                 <div>
                     <h4 class="text-white font-bold text-xl uppercase mb-2 riot-font">Target Locked: The Persona</h4>
                     <p class="text-gray-400 text-sm">
@@ -526,34 +586,62 @@
                 </div>
             </div>
 
-            <!-- SECTION 4: FUTURE OUTLOOK -->
-            <div class="relative mb-8 mt-16 md:mt-20">
+            <!-- SECTION 5: FUTURE OUTLOOK -->
+            <div class="relative mb-8 mt-20">
                 <div class="absolute -left-4 top-0 bottom-0 w-1 bg-[#0ac8b9]"></div>
-                <h2 class="text-4xl md:text-5xl font-bold text-white m-0 uppercase italic pl-4">4. What's Next?</h2>
+                <h2 class="text-5xl font-bold text-white m-0 uppercase italic pl-4">5. Future Roadmap</h2>
             </div>
 
-            <p class="mb-6 text-gray-300">
-                The game is great, but once you beat it, it's over. How do they keep making money?
+            <p class="mb-8 text-gray-300">
+                The biggest risk for an indie studio is being a <strong>"One Hit Wonder."</strong> Urnique Studio is already executing their next phase to secure their future.
             </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-                <div class="bg-[#1a0505] border-t-4 border-red-600 p-6">
-                    <h4 class="text-red-500 font-bold mb-2 uppercase tracking-wide text-lg riot-font"> The Challenge</h4>
-                    <p class="text-sm text-gray-400"><strong>One-Hit Wonder Risk:</strong> Need cash while developing the next game.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <!-- Completed Quest -->
+                <div class="bg-[#0f1910] border border-green-900 p-6 rounded-lg relative overflow-hidden group hover:border-green-600 transition-colors">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"><i class="fas fa-flag-checkered text-6xl text-green-600"></i></div>
+                    <h4 class="text-green-500 font-bold mb-3 flex items-center text-xl riot-font tracking-wide">
+                        <i class="fas fa-check-circle mr-3"></i> COMPLETED QUEST
+                    </h4>
+                    <p class="text-sm text-gray-300"><strong class="text-white block mb-1 text-lg">Nintendo Switch Port</strong> Successfully expanded to console markets in 2021.</p>
                 </div>
-                <div class="bg-[#051a05] border-t-4 border-green-600 p-6">
-                    <h4 class="text-green-500 font-bold mb-2 uppercase tracking-wide text-lg riot-font">Suggestion: Merch</h4>
-                    <p class="text-sm text-gray-400">Sell <strong>plush toys</strong> of the girl and cat. Easy passive income.</p>
+
+                <!-- Current Mission -->
+                <div class="bg-[#1a0505] border border-red-900 p-6 rounded-lg relative overflow-hidden group hover:border-red-600 transition-colors">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"><i class="fas fa-crosshairs text-6xl text-red-600"></i></div>
+                    <h4 class="text-red-500 font-bold mb-3 flex items-center text-xl riot-font tracking-wide">
+                        <i class="fas fa-spinner fa-spin mr-3"></i> CURRENT MISSION
+                    </h4>
+                    <p class="text-sm text-gray-300"><strong class="text-white block mb-1 text-lg">Narin: The Orange Room</strong> Developing a new <em>"Survival Horror"</em> IP to prove versatility.</p>
                 </div>
-                 <div class="bg-[#05151a] border-t-4 border-cyan-600 p-6 md:col-span-2">
-                    <h4 class="text-cyan-500 font-bold mb-2 uppercase tracking-wide text-lg riot-font">Suggestion: Tech Sales</h4>
-                    <p class="text-sm text-gray-400">Sell the "Time Rewind" code as a plugin to other developers.</p>
+            </div>
+
+            <!-- ANALYST RECOMMENDATIONS (Updated) -->
+            <div class="flex items-center mb-6 mt-12">
+                <div class="h-px bg-[#333] flex-grow"></div>
+                <span class="px-4 text-[#ffaa00] font-mono text-xs tracking-widest uppercase">My Strategic Suggestion</span>
+                <div class="h-px bg-[#333] flex-grow"></div>
+            </div>
+
+            <p class="mb-8 text-gray-400 text-center italic">
+                While their current roadmap is strong, I recommend the following strategy to further diversify revenue streams:
+            </p>
+
+            <div class="mb-12">
+                <!-- Suggestion 1: Merchandising -->
+                <div class="bg-[#1a1a1a] border border-[#ffaa00]/30 p-6 rounded-lg relative overflow-hidden hover:border-[#ffaa00] transition-colors">
+                    <div class="absolute top-0 right-0 p-4 opacity-10"><i class="fas fa-tshirt text-6xl text-[#ffaa00]"></i></div>
+                    <h4 class="text-[#ffaa00] font-bold mb-2 uppercase tracking-wide text-lg riot-font"><i class="fas fa-star mr-2"></i> Suggestion: Merchandising</h4>
+                    <p class="text-sm text-gray-300">
+                        The characters (The Girl & The Cat) are iconic. Selling high-quality <strong>plush toys or apparel</strong> would create a "Passive Income" stream that supports the studio between major game launches.
+                    </p>
                 </div>
             </div>
 
             <!-- CONCLUSION -->
-            <div class="mt-20 p-8 md:p-10 bg-black border border-[#333] text-center relative">
+            <div class="mt-20 p-10 bg-black border border-[#333] text-center relative">
                 <div class="absolute inset-0 bg-gradient-to-r from-[#ff4655]/20 to-[#0ac8b9]/20 opacity-50"></div>
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 riot-font relative z-10">CONCLUSION</h2>
+                <h2 class="text-4xl font-bold text-white mb-4 riot-font relative z-10">EXECUTIVE SUMMARY</h2>
                 <p class="text-gray-300 text-lg relative z-10">
                     Urnique Studio is proof that you don't need a massive budget. By combining a <strong>flexible business model</strong> with <strong>user-centric design</strong>, they turned a student project into a real business success.
                 </p>
